@@ -1,0 +1,44 @@
+.chat-container {
+background-color: #4CAF50;
+	color: #fff;
+	width: auto;
+	height: auto;
+	border: 5px solid #000000;
+	padding: 5px;
+}
+
+#mensajes {
+background-color: #00ff00;
+  color: #fff;
+  border: 3px solid #0000ff;
+	list-style: none;
+	padding: 2%;
+	margin: 0;
+}
+
+#mensajes li {
+background-color: #000000;
+	margin-bottom: 2px;
+}
+
+#enviar-mensaje {
+background-color: #0808e1;
+border: 3px solid #ccc;
+	display: flex;
+}
+
+#mensaje {
+background-color: #ffff00;
+	width: 70%;
+	padding: 10px;
+	border: 3px solid #ccc;
+}
+
+button {
+	width: 30%;
+	padding: 10px;
+	background-color: #FF1F6F;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
